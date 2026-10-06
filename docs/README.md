@@ -1,4 +1,4 @@
-# TipTune Documentation Index
+# VibePay Documentation Index
 
 This directory is the primary entry point for repository documentation. Start here when you need product context, contributor setup steps, or subsystem-specific references.
 

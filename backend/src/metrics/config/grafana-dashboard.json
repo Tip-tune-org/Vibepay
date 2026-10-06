@@ -1,6 +1,6 @@
 {
   "dashboard": {
-    "title": "TipTune Application Metrics",
+    "title": "VibePay Application Metrics",
     "tags": ["tiptune", "monitoring"],
     "timezone": "browser",
     "panels": [

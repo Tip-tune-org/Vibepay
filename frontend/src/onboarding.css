@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap");
 
 :root {
-  /* Matched to TipTune's navy palette */
+  /* Matched to VibePay's navy palette */
   --ob-bg: #0f1117; /* deep navy — matches bg-navy */
   --ob-bg-card: #1a1f2e; /* navy-light card surface */
   --ob-bg-elevated: #222840; /* slightly lifted surface */

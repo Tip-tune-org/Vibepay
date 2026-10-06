@@ -1,10 +1,10 @@
-# Contributing to TipTune 🎵
+# Contributing to VibePay 🎵
 
-First off, thank you for considering contributing to TipTune! It's people like you that make TipTune such a great platform for artists and music lovers.
+First off, thank you for considering contributing to VibePay! It's people like you that make VibePay such a great platform for artists and music lovers.
 
 ## 🌟 Ways to Contribute
 
-There are many ways to contribute to TipTune:
+There are many ways to contribute to VibePay:
 
 - 🐛 **Bug Reports** - Help us identify and fix issues
 - ✨ **Feature Requests** - Suggest new ideas and improvements
@@ -12,13 +12,13 @@ There are many ways to contribute to TipTune:
 - 📚 **Documentation** - Improve guides, tutorials, and API docs
 - 🎨 **Design** - Enhance UI/UX and create assets
 - 🧪 **Testing** - Write tests and help with quality assurance
-- 🌍 **Translations** - Help make TipTune accessible worldwide
+- 🌍 **Translations** - Help make VibePay accessible worldwide
 
 ---
 
 ## 💰 Drips Wave Program
 
-TipTune is part of the **Stellar Drips Wave Program**! This means you can earn rewards for contributing:
+VibePay is part of the **Stellar Drips Wave Program**! This means you can earn rewards for contributing:
 
 - Browse issues tagged with `drips-wave` or `stellar-wave`
 - Apply to work on an issue through the [Drips Wave platform](https://www.drips.network/wave)
@@ -331,7 +331,7 @@ If applicable
 **Environment:**
 - OS: [e.g. macOS, Windows, Linux]
 - Browser: [e.g. Chrome 120, Firefox 121]
-- TipTune version: [e.g. 1.2.0]
+- VibePay version: [e.g. 1.2.0]
 - Wallet: [e.g. Freighter 5.0.0]
 
 **Additional context**
@@ -346,7 +346,7 @@ Any other relevant information
 
 - Check if the feature already exists
 - Review open feature requests
-- Consider if it fits TipTune's scope
+- Consider if it fits VibePay's scope
 
 ### Feature Request Template
 
@@ -411,7 +411,7 @@ Documentation is just as important as code!
 
 ## 🌍 Translation Contributions
 
-Help make TipTune accessible globally:
+Help make VibePay accessible globally:
 
 1. Check `src/locales/` for existing translations
 2. Copy `en.json` as template
@@ -461,7 +461,7 @@ Violations can be reported to maintainers. All complaints will be reviewed and i
 
 - 💬 [Join our Discord](https://discord.gg/tiptune)
 - 📧 Email: dev@tiptune.io
-- 🐦 Twitter: [@TipTuneMusic](https://twitter.com/tiptunemusic)
+- 🐦 Twitter: [@VibePayMusic](https://twitter.com/tiptunemusic)
 - 📖 [Documentation](https://docs.tiptune.io)
 
 **For Drips Wave specific questions:**
@@ -481,14 +481,14 @@ Contributors will be:
 **Top Contributors** get:
 - Early access to new features
 - Input on roadmap decisions
-- Exclusive TipTune swag
+- Exclusive VibePay swag
 - Recognition on our website
 
 ---
 
 ## 📜 License
 
-By contributing to TipTune, you agree that your contributions will be licensed under the MIT License.
+By contributing to VibePay, you agree that your contributions will be licensed under the MIT License.
 
 ---
 
@@ -499,7 +499,7 @@ By contributing to TipTune, you agree that your contributions will be licensed u
 - **Be patient** - Maintainers are often volunteers
 - **Have fun** - We're building something awesome together!
 
-**Thank you for contributing to TipTune! Together, we're revolutionizing how artists get paid. 🚀**
+**Thank you for contributing to VibePay! Together, we're revolutionizing how artists get paid. 🚀**
 
 ---
 

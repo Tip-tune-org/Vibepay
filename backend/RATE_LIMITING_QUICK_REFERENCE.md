@@ -1,6 +1,6 @@
 # Rate Limiting Quick Reference
 
-Quick reference for developers working with rate limiting in TipTune backend.
+Quick reference for developers working with rate limiting in VibePay backend.
 
 ## Installation
 
@@ -10,7 +10,7 @@ npm install @nestjs/throttler throttler-storage-redis
 
 ## Environment Variables
 
-TipTune uses environment variables for Redis and rate limiting configuration. For a complete reference, see the [Canonical Environment Variable Reference](../docs/environment-reference.md).
+VibePay uses environment variables for Redis and rate limiting configuration. For a complete reference, see the [Canonical Environment Variable Reference](../docs/environment-reference.md).
 
 ```env
 REDIS_HOST=localhost

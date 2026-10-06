@@ -28,8 +28,8 @@ interface CollaborativePlaylistProps {
 // -------------------------------------------------------------
 
 const STATUS_COLORS: Record<string, string> = {
-  connected: "#9BF0E1",      // TipTune mint
-  connecting: "#FFD166",     // TipTune gold
+  connected: "#9BF0E1",      // VibePay mint
+  connecting: "#FFD166",     // VibePay gold
   disconnected: "#ff6b6b",   // red
 };
 
@@ -178,7 +178,7 @@ export const CollaborativePlaylist: React.FC<CollaborativePlaylistProps> = ({
 };
 
 // -------------------------------------------------------------
-// Inline styles — matches TipTune colour palette
+// Inline styles — matches VibePay colour palette
 // -------------------------------------------------------------
 
 const styles: Record<string, React.CSSProperties> = {

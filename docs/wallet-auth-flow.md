@@ -65,7 +65,7 @@ Validation: `publicKey` must match `/^G[A-Z0-9]{55}$/`. Any other value returns 
 ```json
 {
   "challengeId": "550e8400-e29b-41d4-a716-446655440000",
-  "challenge": "Sign this message to authenticate with TipTune:\n\nChallenge ID: 550e8400-e29b-41d4-a716-446655440000\nTimestamp: 1700000000000\nPublic Key: GABC...XYZ",
+  "challenge": "Sign this message to authenticate with VibePay:\n\nChallenge ID: 550e8400-e29b-41d4-a716-446655440000\nTimestamp: 1700000000000\nPublic Key: GABC...XYZ",
   "expiresAt": "2024-01-01T12:05:00.000Z"
 }
 ```

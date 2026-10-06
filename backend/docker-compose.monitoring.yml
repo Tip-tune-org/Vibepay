@@ -3,7 +3,7 @@ version: '3.8'
 services:
   prometheus:
     image: prom/prometheus:latest
-    container_name: tiptune-prometheus
+    container_name: vibepay-prometheus
     ports:
       - "9090:9090"
     volumes:
@@ -18,7 +18,7 @@ services:
 
   grafana:
     image: grafana/grafana:latest
-    container_name: tiptune-grafana
+    container_name: vibepay-grafana
     ports:
       - "3002:3000"
     environment:

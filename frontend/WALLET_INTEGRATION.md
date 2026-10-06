@@ -1,6 +1,6 @@
 # Stellar Wallet Integration (Freighter)
 
-Complete Freighter wallet integration for TipTune, allowing users to connect their Stellar wallets, view balances, and sign transactions.
+Complete Freighter wallet integration for VibePay, allowing users to connect their Stellar wallets, view balances, and sign transactions.
 
 ## Features
 

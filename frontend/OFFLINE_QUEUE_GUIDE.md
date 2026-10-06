@@ -2,7 +2,7 @@
 
 ## Overview
 
-The TipTune PWA now includes a robust offline queue system that allows users to continue interacting with the app even when offline. Actions are queued locally in IndexedDB and automatically replayed when the connection is restored.
+The VibePay PWA now includes a robust offline queue system that allows users to continue interacting with the app even when offline. Actions are queued locally in IndexedDB and automatically replayed when the connection is restored.
 
 ## Architecture
 
@@ -299,7 +299,7 @@ Tests cover:
    ```
 
 2. Check IndexedDB for queued actions:
-   - Open DevTools → Application → IndexedDB → TipTuneOfflineQueue
+   - Open DevTools → Application → IndexedDB → VibePayOfflineQueue
 
 3. Check console for errors during replay
 

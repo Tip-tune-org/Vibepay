@@ -34,7 +34,7 @@ const NEXT_STEPS = [
   {
     icon: "🤝",
     title: "Collaborate",
-    desc: "Connect with other TipTune artists.",
+    desc: "Connect with other VibePay artists.",
   },
 ];
 

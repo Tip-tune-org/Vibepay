@@ -2,7 +2,7 @@
 
 ## Overview
 
-Comprehensive rate limiting has been successfully implemented for the TipTune backend API using NestJS Throttler with Redis-backed storage.
+Comprehensive rate limiting has been successfully implemented for the VibePay backend API using NestJS Throttler with Redis-backed storage.
 
 ## What Was Implemented
 

@@ -19,7 +19,7 @@ const AnalyticsDashboard: React.FC = () => {
         try {
             const dataUrl = await toPng(dashboardRef.current, { cacheBust: true, backgroundColor: '#0f172a' });
             const link = document.createElement('a');
-            link.download = `tiptune-analytics-${Date.now()}.png`;
+            link.download = `vibepay-analytics-${Date.now()}.png`;
             link.href = dataUrl;
             link.click();
         } catch (err) {
@@ -144,7 +144,7 @@ const AnalyticsDashboard: React.FC = () => {
 
             {/* Footer */}
             <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/5 flex justify-between items-center text-slate-500 text-sm">
-                <p>© 2024 TipTune Analytics. Advanced Artist Insights.</p>
+                <p>© 2024 VibePay Analytics. Advanced Artist Insights.</p>
                 <div className="flex gap-6">
                     <button className="hover:text-white transition-colors">Documentation</button>
                     <button className="hover:text-white transition-colors">API Keys</button>

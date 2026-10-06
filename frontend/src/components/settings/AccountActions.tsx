@@ -141,7 +141,7 @@ const AccountActions = () => {
             <h3 className="text-lg font-medium text-deep-slate mb-1">Security Notice</h3>
             <p className="text-gray-600 text-sm">
               Your wallet and any cryptocurrency holdings are not affected by account deletion. 
-              Only your TipTune profile, settings, and activity history will be removed.
+              Only your VibePay profile, settings, and activity history will be removed.
             </p>
           </div>
         </div>
@@ -156,7 +156,7 @@ const AccountActions = () => {
           <div className="flex-1">
             <h3 className="text-lg font-medium text-deep-slate mb-1">Delete Account</h3>
             <p className="text-gray-600 text-sm mb-4">
-              Permanently delete your TipTune account and all associated data. This action cannot be undone.
+              Permanently delete your VibePay account and all associated data. This action cannot be undone.
             </p>
 
             {!showDeleteConfirm ? (

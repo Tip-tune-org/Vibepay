@@ -1,6 +1,6 @@
 {
-  "name": "TipTune",
-  "short_name": "TipTune",
+  "name": "VibePay",
+  "short_name": "VibePay",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",

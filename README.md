@@ -1,8 +1,8 @@
-# TipTune
+# VibePay
 
 **Real-time music tips powered by Stellar**
 
-TipTune is a revolutionary platform that connects music lovers directly with artists through instant, frictionless micro-tipping. Stream your favorite tracks and show appreciation with lightning-fast Stellar payments.
+VibePay is a revolutionary platform that connects music lovers directly with artists through instant, frictionless micro-tipping. Stream your favorite tracks and show appreciation with lightning-fast Stellar payments.
 
 ## Color Palette
 
@@ -41,9 +41,9 @@ Start with the [documentation index](docs/README.md) for the current docs map.
 
 ---
 
-## Why TipTune?
+## Why VibePay?
 
-Traditional music streaming pays artists fractions of a cent per stream. TipTune flips the model:
+Traditional music streaming pays artists fractions of a cent per stream. VibePay flips the model:
 
 - **Direct support**: 100% of tips go directly to artists (minus minimal network fees)
 - **Instant settlement**: Artists receive funds in seconds, not months
@@ -67,7 +67,7 @@ Traditional music streaming pays artists fractions of a cent per stream. TipTune
 
 ## 🔍 Search Ranking Algorithm
 
-TipTune's autocomplete rankings are driven by a **composite mathematical scoring function** — not alphabetical order or raw counts. The algorithm is inspired by industry-proven ranking systems:
+VibePay's autocomplete rankings are driven by a **composite mathematical scoring function** — not alphabetical order or raw counts. The algorithm is inspired by industry-proven ranking systems:
 
 ```
 Score(item) = PrefixBoost
@@ -119,7 +119,7 @@ npm run migrate
 npm run dev
 ```
 
-Visit `http://localhost:3000` to see TipTune in action!
+Visit `http://localhost:3000` to see VibePay in action!
 
 ---
 
@@ -137,7 +137,7 @@ Visit `http://localhost:3000` to see TipTune in action!
 
 1. **Sign Up** - Create artist profile with Stellar wallet
 2. **Upload Music** - Add tracks with metadata and artwork
-3. **Share Profile** - Share your TipTune link with fans
+3. **Share Profile** - Share your VibePay link with fans
 4. **Receive Tips** - Get notified instantly when fans tip
 5. **Track Analytics** - View earnings and engagement stats
 
@@ -146,7 +146,7 @@ Visit `http://localhost:3000` to see TipTune in action!
 ## Project Structure
 
 ```
-# TipTune Project Structure
+# VibePay Project Structure
 
 tiptune/
 ├── frontend/                           # React + TypeScript + Vite
@@ -430,7 +430,7 @@ tiptune/
 
 ## Contributing
 
-We welcome contributions! TipTune is participating in the **Stellar Drips Wave Program** - check out our open issues to earn rewards while building something awesome.
+We welcome contributions! VibePay is participating in the **Stellar Drips Wave Program** - check out our open issues to earn rewards while building something awesome.
 
 ### Getting Started
 
@@ -512,11 +512,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 💡 Support the Project.
 
-If you find TipTune valuable, consider:
+If you find VibePay valuable, consider:
 
 - Starring this repository
 - Reporting bugs and suggesting features
 - Contributing code or documentation
-- Using TipTune to support your favorite artists
+- Using VibePay to support your favorite artists
 
-**Built with ❤️ by the TipTune community**
+**Built with ❤️ by the VibePay community**

@@ -104,7 +104,7 @@ Implemented a comprehensive offline queue system using IndexedDB with the follow
                      ▼
 ┌──────────────────────────────────────────────────────────┐
 │                      IndexedDB                            │
-│  Database: TipTuneOfflineQueue                            │
+│  Database: VibePayOfflineQueue                            │
 │  - queue store (pending actions)                          │
 │  - metadata store (replay history)                        │
 └──────────────────────────────────────────────────────────┘
@@ -471,7 +471,7 @@ function QueueStatus() {
 
 ## 🎉 Summary
 
-This PR implements a **production-ready offline queue system** for the TipTune PWA. The implementation is:
+This PR implements a **production-ready offline queue system** for the VibePay PWA. The implementation is:
 
 - ✅ **Complete**: All acceptance criteria met
 - ✅ **Tested**: 20 unit tests + browser test scenarios

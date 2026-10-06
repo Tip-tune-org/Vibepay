@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document provides a comprehensive mapping of admin roles to their permissions, along with audit workflow details for all admin actions in the TipTune platform.
+This document provides a comprehensive mapping of admin roles to their permissions, along with audit workflow details for all admin actions in the VibePay platform.
 
 ## Role-Permission Matrix
 

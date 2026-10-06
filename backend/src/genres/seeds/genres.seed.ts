@@ -2,7 +2,7 @@ import { DataSource } from 'typeorm';
 import { Genre } from '../entities/genre.entity';
 
 /**
- * Seed predefined genres for TipTune
+ * Seed predefined genres for VibePay
  * Run this after migrations are applied
  */
 export async function seedGenres(dataSource: DataSource): Promise<void> {

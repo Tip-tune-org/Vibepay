@@ -70,10 +70,10 @@ const TipReceiptPage: React.FC = () => {
   const handleShare = useCallback(async () => {
     const url = window.location.href;
     const shareData: ShareData = {
-      title: 'TipTune Receipt',
+      title: 'VibePay Receipt',
       text: receipt
-        ? `Check out my tip of ${receipt.amount ?? '0'} ${receipt.assetCode ?? 'asset'} on TipTune!`
-        : 'View tip receipt on TipTune',
+        ? `Check out my tip of ${receipt.amount ?? '0'} ${receipt.assetCode ?? 'asset'} on VibePay!`
+        : 'View tip receipt on VibePay',
       url,
     };
 

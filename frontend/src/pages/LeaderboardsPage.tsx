@@ -113,7 +113,7 @@ export const LeaderboardsPage: React.FC = () => {
     const url = window.location.href;
     if (navigator.share) {
       navigator.share({
-        title: `TipTune Leaderboard: ${LEADERBOARD_LABELS[type]}`,
+        title: `VibePay Leaderboard: ${LEADERBOARD_LABELS[type]}`,
         url,
       });
     } else {

@@ -1,6 +1,6 @@
 # Rate Limiting Implementation
 
-This document describes the rate limiting implementation for the TipTune API using NestJS Throttler with Redis backend.
+This document describes the rate limiting implementation for the VibePay API using NestJS Throttler with Redis backend.
 
 ## Overview
 

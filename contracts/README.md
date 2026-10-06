@@ -1,6 +1,6 @@
-# TipTune Smart Contracts
+# VibePay Smart Contracts
 
-Soroban smart contracts for the TipTune platform. The workspace contains **19 packages** — `tip-escrow` is one of them.
+Soroban smart contracts for the VibePay platform. The workspace contains **19 packages** — `tip-escrow` is one of them.
 
 ## Documentation
 

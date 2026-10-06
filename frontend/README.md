@@ -1,6 +1,6 @@
-# TipTune Frontend
+# VibePay Frontend
 
-React frontend application for TipTune - Real-time music tips powered by Stellar.
+React frontend application for VibePay - Real-time music tips powered by Stellar.
 
 ## Tech Stack
 
@@ -85,7 +85,7 @@ frontend/
 
 - ✅ React with TypeScript
 - ✅ Vite for fast development
-- ✅ TailwindCSS configured with TipTune color palette
+- ✅ TailwindCSS configured with VibePay color palette
 - ✅ React Router for navigation
 - ✅ Axios API client with interceptors
 - ✅ Stellar SDK integration utilities

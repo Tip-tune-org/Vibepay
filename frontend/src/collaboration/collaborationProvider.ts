@@ -60,7 +60,7 @@ export interface ProviderConfig {
   userColor?: string;
 }
 
-const DEFAULT_COLOR = "#4DA3FF"; // TipTune blue
+const DEFAULT_COLOR = "#4DA3FF"; // VibePay blue
 
 // -------------------------------------------------------------
 // Real WebSocket provider (production)

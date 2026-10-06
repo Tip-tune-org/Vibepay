@@ -14,7 +14,7 @@ Historical documentation described the waveform module in isolation and did not 
 
 ## Context
 
-The TipTune backend has had two parallel waveform implementations:
+The VibePay backend has had two parallel waveform implementations:
 
 1. **`src/waveform`** (original) - Initial implementation using CLI-based generation with basic job queueing
 2. **`src/mount-waveform`** (duplicate) - Refactored implementation with improved BullMQ-based queueing and tracking logic

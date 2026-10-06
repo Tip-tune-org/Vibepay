@@ -70,7 +70,7 @@ export class EmbedService {
       title: track.title,
       author_name: track.artist?.artistName || "Unknown Artist",
       author_url: `${baseUrl}/artists/${track.artistId}`,
-      provider_name: "TipTune",
+      provider_name: "VibePay",
       provider_url: baseUrl,
       thumbnail_url: track.coverArtUrl || null,
       thumbnail_width: 300,
@@ -89,7 +89,7 @@ export class EmbedService {
     const embedUrl = `${baseUrl}/embed/${trackId}`;
     const image = track.coverArtUrl || `${baseUrl}/default-cover.png`;
     const description =
-      track.description || `Listen to ${track.title} on TipTune`;
+      track.description || `Listen to ${track.title} on VibePay`;
 
     return {
       openGraph: {
@@ -100,7 +100,7 @@ export class EmbedService {
         "og:image": image,
         "og:audio": track.audioUrl,
         "og:audio:type": track.mimeType || "audio/mpeg",
-        "og:site_name": "TipTune",
+        "og:site_name": "VibePay",
         "music:musician": track.artist?.artistName || "Unknown Artist",
       },
       twitterCard: {

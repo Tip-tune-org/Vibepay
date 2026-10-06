@@ -1,4 +1,4 @@
-# TipTune Contracts — Quickstart
+# VibePay Contracts — Quickstart
 
 Get the full Soroban workspace building and testing locally in a few commands.
 

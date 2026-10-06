@@ -1,6 +1,6 @@
 # Accessibility Documentation (WCAG 2.1 AA)
 
-TipTune is committed to providing an inclusive experience for all users, including those with disabilities. This document outlines the accessibility features implemented and guidelines for maintaining WCAG 2.1 Level AA compliance.
+VibePay is committed to providing an inclusive experience for all users, including those with disabilities. This document outlines the accessibility features implemented and guidelines for maintaining WCAG 2.1 Level AA compliance.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ TipTune is committed to providing an inclusive experience for all users, includi
 
 ## Overview
 
-TipTune implements WCAG 2.1 Level AA accessibility standards, ensuring:
+VibePay implements WCAG 2.1 Level AA accessibility standards, ensuring:
 
 - All interactive elements are keyboard accessible
 - Screen readers can navigate and understand content

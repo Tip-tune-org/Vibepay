@@ -31,9 +31,9 @@ const SocialShareModal: React.FC<SocialShareModalProps> = ({
     if (!tip) return '';
     if (tip.message) return tip.message;
     if (variant === 'sent') {
-      return `Just tipped ${displayName} on TipTune ✨`;
+      return `Just tipped ${displayName} on VibePay ✨`;
     }
-    return `I just received a tip on TipTune ✨`;
+    return `I just received a tip on VibePay ✨`;
   }, [tip, variant, displayName]);
 
   // Keep text input controlled but seed from tip / variant
@@ -41,7 +41,7 @@ const SocialShareModal: React.FC<SocialShareModalProps> = ({
 
   const handleShareTwitter = () => {
     if (!tip) return;
-    const text = effectiveMessage || `Just tipped ${displayName} on TipTune ✨`;
+    const text = effectiveMessage || `Just tipped ${displayName} on VibePay ✨`;
     const url = `${window.location.origin}/tips/history`;
     const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
       text

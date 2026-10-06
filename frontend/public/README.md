@@ -1,7 +1,7 @@
-## Tip-Tune Branding Assets
+## VibePay Branding Assets
 
 ### 1. Overview
-This folder contains the visual identity assets for TipTune, a platform for music tipping and payments via the Stellar network.
+This folder contains the visual identity assets for VibePay, a platform for music tipping and payments via the Stellar network.
 
 ### 2. Design Rationale
 "The Digital Frequency" The logo features a stylized "T" composed of equalizer bars to represent music frequency and rhythm. The central vertical element is elongated to symbolize a rocket's trajectory (referencing the Stellar network) or a blockchain node, while the rounded caps of the bars represent digital coins and tokens.

@@ -112,7 +112,7 @@ const BadgesPage = () => {
         <div className="min-h-screen bg-navy text-white">
             <header className="border-b border-gray-700 bg-navy-light">
                 <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-                    <div className="text-xl font-bold">TipTune Badges</div>
+                    <div className="text-xl font-bold">VibePay Badges</div>
                     <div className="flex items-center gap-4">
                         <a href="/" className="text-gray-300 hover:text-white">Home</a>
                         <button

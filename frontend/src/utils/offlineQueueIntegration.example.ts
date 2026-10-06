@@ -1,5 +1,5 @@
 /**
- * Example integration patterns for offline queue in TipTune application
+ * Example integration patterns for offline queue in VibePay application
  * 
  * This file demonstrates how to integrate the offline queue system
  * into various parts of the application.

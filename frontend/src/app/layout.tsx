@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TipTune - Real-time music tips powered by Stellar",
+  title: "VibePay - Real-time music tips powered by Stellar",
   description: "Connect your Stellar wallet and tip your favorite artists",
 };
 

@@ -59,7 +59,7 @@ export class AuthService implements OnModuleInit, OnModuleDestroy {
 
     const challengeId = uuidv4();
     const timestamp = Date.now();
-    const challenge = `Sign this message to authenticate with TipTune:\n\nChallenge ID: ${challengeId}\nTimestamp: ${timestamp}\nPublic Key: ${publicKey}`;
+    const challenge = `Sign this message to authenticate with VibePay:\n\nChallenge ID: ${challengeId}\nTimestamp: ${timestamp}\nPublic Key: ${publicKey}`;
 
     const expiresAt = new Date();
     expiresAt.setMinutes(

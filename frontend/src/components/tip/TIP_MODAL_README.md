@@ -2,7 +2,7 @@ _# Mobile-First Tip Modal Implementation
 
 ## Overview
 
-A comprehensive mobile-optimized tipping modal component for TipTune with smooth animations, gesture support, haptic feedback, and a multi-step flow for sending tips to artists.
+A comprehensive mobile-optimized tipping modal component for VibePay with smooth animations, gesture support, haptic feedback, and a multi-step flow for sending tips to artists.
 
 ## Features Implemented
 
@@ -240,7 +240,7 @@ For optimal mobile experience, ensure your HTML has proper viewport configuratio
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="theme-color" content="#0B1C2D" />
-  <title>TipTune</title>
+  <title>VibePay</title>
 </head>
 <body>
   <div id="root"></div>
@@ -356,4 +356,4 @@ When extending the modal:
 
 ## License
 
-Same as TipTune project.
+Same as VibePay project.

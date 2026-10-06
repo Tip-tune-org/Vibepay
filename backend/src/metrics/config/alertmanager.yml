@@ -20,8 +20,8 @@ route:
 receivers:
   - name: 'default'
     slack_configs:
-      - channel: '#tiptune-alerts'
-        title: 'TipTune Alert'
+      - channel: '#vibepay-alerts'
+        title: 'VibePay Alert'
         text: '{{ range .Alerts }}{{ .Annotations.description }}{{ end }}'
 
   - name: 'critical-alerts'

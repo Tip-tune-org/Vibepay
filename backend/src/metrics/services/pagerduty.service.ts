@@ -33,7 +33,7 @@ export class PagerDutyService {
       payload: {
         summary,
         severity,
-        source: 'tiptune-backend',
+        source: 'vibepay-backend',
         custom_details: details,
       },
     };

@@ -178,4 +178,4 @@ function MyComponent() {
 - Comprehensive tests included
 - Documentation provided
 
-The Track Detail Modal is ready for integration into the TipTune application.
+The Track Detail Modal is ready for integration into the VibePay application.

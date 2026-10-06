@@ -16,7 +16,7 @@ const STEPS: Step[] = [
     id: "welcome",
     index: 0,
     title: "Welcome",
-    subtitle: "Discover TipTune",
+    subtitle: "Discover VibePay",
     skippable: false,
   },
   {
@@ -244,7 +244,7 @@ export const ArtistOnboarding: React.FC = () => {
       <header className="onboarding-header">
         <div className="logo">
           <span className="logo-icon">🎵</span>
-          <span className="logo-text">TipTune</span>
+          <span className="logo-text">VibePay</span>
         </div>
         <div className="header-actions">
           <button className="save-btn" onClick={handleSaveDraft}>
@@ -317,7 +317,7 @@ export const ArtistOnboarding: React.FC = () => {
 
 const WelcomeStep: React.FC = () => (
   <OnboardingStep
-    title="Welcome to TipTune for Artists"
+    title="Welcome to VibePay for Artists"
     subtitle="Your music. Your fans. Your earnings — on the Stellar blockchain."
     icon={<span className="step-emoji">👋</span>}
   >
@@ -355,7 +355,7 @@ const WelcomeStep: React.FC = () => (
     <div className="video-embed">
       <div className="video-placeholder">
         <div className="play-button">▶</div>
-        <p>Watch: How TipTune works for artists (2 min)</p>
+        <p>Watch: How VibePay works for artists (2 min)</p>
       </div>
     </div>
 
@@ -488,13 +488,13 @@ const PromotionStep: React.FC = () => (
         {
           number: "01",
           title: "Share Your Profile Link",
-          desc: "Copy your TipTune artist URL and post it everywhere — Instagram bio, Twitter, TikTok.",
+          desc: "Copy your VibePay artist URL and post it everywhere — Instagram bio, Twitter, TikTok.",
           action: "Copy Link",
         },
         {
           number: "02",
           title: "Embed the Tip Button",
-          desc: 'Add a "Tip Me on TipTune" button to your website or blog in minutes.',
+          desc: 'Add a "Tip Me on VibePay" button to your website or blog in minutes.',
           action: "Get Widget",
         },
         {

@@ -15,7 +15,7 @@ export class LoggingService implements LoggerService {
         winston.format.errors({ stack: true }),
         winston.format.json(),
       ),
-      defaultMeta: { service: 'tiptune-backend' },
+      defaultMeta: { service: 'vibepay-backend' },
       transports: [
         new winston.transports.Console({
           format: winston.format.combine(

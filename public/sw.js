@@ -1,4 +1,4 @@
-/* TipTune service worker using Workbox CDN for pragmatic integration.
+/* VibePay service worker using Workbox CDN for pragmatic integration.
    This file lives in public/ and is registered from the client.
    It handles precaching (simple), runtime caching for audio/images/APIs,
    push notifications, background sync, and media controls.
@@ -61,12 +61,12 @@ if (workbox) {
 self.addEventListener('push', function (event) {
   let payload = {};
   try {
-    payload = event.data ? event.data.json() : {title: 'TipTune', body: 'New notification'};
+    payload = event.data ? event.data.json() : {title: 'VibePay', body: 'New notification'};
   } catch (e) {
-    payload = {title: 'TipTune', body: event.data ? event.data.text() : 'New notification'};
+    payload = {title: 'VibePay', body: event.data ? event.data.text() : 'New notification'};
   }
 
-  const title = payload.title || 'TipTune';
+  const title = payload.title || 'VibePay';
   const options = {
     body: payload.body || '',
     icon: '/icons/icon-192.png',

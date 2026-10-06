@@ -310,7 +310,7 @@ const PrivacySettings = () => {
         <Info className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
         <div>
           <p className="text-blue-700 text-sm">
-            Your wallet address is always public on the blockchain. These settings control what information is visible on your TipTune profile.
+            Your wallet address is always public on the blockchain. These settings control what information is visible on your VibePay profile.
           </p>
         </div>
       </div>

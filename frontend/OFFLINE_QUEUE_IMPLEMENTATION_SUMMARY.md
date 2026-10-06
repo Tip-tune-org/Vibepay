@@ -2,7 +2,7 @@
 
 ## 🎯 Objective
 
-Implement a robust offline queue system for the TipTune PWA that allows users to continue interacting with the app when offline, with automatic replay when connectivity is restored.
+Implement a robust offline queue system for the VibePay PWA that allows users to continue interacting with the app when offline, with automatic replay when connectivity is restored.
 
 ## ✅ Completion Status
 

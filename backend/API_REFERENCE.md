@@ -1,4 +1,4 @@
-# TipTune Backend API Reference
+# VibePay Backend API Reference
 
 This reference is derived from Nest controller annotations in `backend/src/**/controllers/*.ts`.
 The backend uses URI versioning behind `/api`, with the default version taken from `API_VERSION` (usually `v1`).

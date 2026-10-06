@@ -59,8 +59,8 @@ async function bootstrap() {
 
   // Swagger documentation
   const config = new DocumentBuilder()
-    .setTitle('TipTune API')
-    .setDescription('API for TipTune audio upload and streaming platform')
+    .setTitle('VibePay API')
+    .setDescription('API for VibePay audio upload and streaming platform')
     .setVersion('1.0')
     .addTag('tracks')
     .addTag('users')

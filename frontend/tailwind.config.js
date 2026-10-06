@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        // TipTune Brand Colors
+        // VibePay Brand Colors
         'primary-blue': '#6366F1',
         'secondary-indigo': '#4338CA',
         'accent-gold': '#FBBF24',

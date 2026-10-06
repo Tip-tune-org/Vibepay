@@ -1,6 +1,6 @@
 # Frontend Setup Complete ✅
 
-This document summarizes the React frontend setup for TipTune.
+This document summarizes the React frontend setup for VibePay.
 
 ## ✅ Completed Tasks
 
@@ -18,7 +18,7 @@ This document summarizes the React frontend setup for TipTune.
 
 ### 3. TailwindCSS Setup
 - ✅ Installed and configured TailwindCSS v3
-- ✅ Created `tailwind.config.js` with TipTune color palette
+- ✅ Created `tailwind.config.js` with VibePay color palette
 - ✅ Configured PostCSS
 - ✅ Created global styles in `src/styles/index.css`
 

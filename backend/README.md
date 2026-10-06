@@ -1,4 +1,4 @@
-# TipTune Backend
+# VibePay Backend
 
 A professional NestJS backend service for audio file upload, storage, and streaming.
 
@@ -172,7 +172,7 @@ npm run test:cov
 
 ## Environment Variables
 
-TipTune uses environment variables for configuration. 
+VibePay uses environment variables for configuration. 
 
 For a complete list of variables, descriptions, and defaults, see the [Canonical Environment Variable Reference](../docs/environment-reference.md).
 

@@ -175,7 +175,7 @@ const ShareCard: React.FC<ShareCardProps> = ({
               }`}
             >
               <span className="mr-1.5 text-amber-400">🪙</span>
-              TipTune
+              VibePay
             </div>
             <span
               className={`text-xs font-medium tracking-[0.18em] uppercase ${

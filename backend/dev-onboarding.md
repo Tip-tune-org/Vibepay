@@ -1,8 +1,8 @@
-# TipTune Developer Onboarding Guide
+# VibePay Developer Onboarding Guide
 
-Welcome to TipTune 🎵⚡
+Welcome to VibePay 🎵⚡
 
-TipTune enables instant music micro-tipping powered by Stellar blockchain.
+VibePay enables instant music micro-tipping powered by Stellar blockchain.
 
 ---
 
@@ -172,7 +172,7 @@ pnpm run test:e2e
 
 # Vision
 
-TipTune empowers artists to earn directly from fans through instant micro-payments — no intermediaries, no friction.
+VibePay empowers artists to earn directly from fans through instant micro-payments — no intermediaries, no friction.
 
 ---
 

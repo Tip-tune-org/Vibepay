@@ -106,10 +106,10 @@ const GiftReceipt: React.FC = () => {
   const handleShare = useCallback(async () => {
     const url = receipt?.gift.shareUrl ?? window.location.href;
     const shareData: ShareData = {
-      title: 'TipTune Gift Receipt',
+      title: 'VibePay Gift Receipt',
       text: receipt
-        ? `${receipt.gift.giver?.displayName ?? 'Someone'} gifted ${receipt.tip.amount} ${receipt.tip.assetCode} to ${receipt.gift.recipient.displayName} on TipTune!`
-        : 'Check out this TipTune gift!',
+        ? `${receipt.gift.giver?.displayName ?? 'Someone'} gifted ${receipt.tip.amount} ${receipt.tip.assetCode} to ${receipt.gift.recipient.displayName} on VibePay!`
+        : 'Check out this VibePay gift!',
       url,
     };
     try {

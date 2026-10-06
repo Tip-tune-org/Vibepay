@@ -1,7 +1,7 @@
 {
-  "name": "tip-tune-backend",
+  "name": "vibepay-backend",
   "version": "0.0.1",
-  "description": "TipTune backend service with audio file upload capabilities",
+  "description": "VibePay backend service with audio file upload capabilities",
   "author": "",
   "private": true,
   "license": "UNLICENSED",

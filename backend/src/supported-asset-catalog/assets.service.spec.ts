@@ -123,7 +123,7 @@ describe('AssetsService', () => {
       const dto: CreateSupportedAssetDto = {
         code: 'TIP',
         issuer: ISSUER_A,
-        name: 'TipTune Token',
+        name: 'VibePay Token',
         scope: AssetScope.ARTIST,
         artistId: 'artist-123',
       };

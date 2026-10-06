@@ -55,7 +55,7 @@ export class WebSocketGateway implements OnGatewayConnection, OnGatewayDisconnec
 
     // Send welcome message
     client.emit('connected', {
-      message: 'Connected to TipTune WebSocket',
+      message: 'Connected to VibePay WebSocket',
       clientId: client.id,
       latestSequenceId: this.eventStore.getLatestSequenceId(),
     });

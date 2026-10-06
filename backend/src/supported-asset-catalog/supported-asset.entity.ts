@@ -13,7 +13,7 @@ export enum AssetScope {
 }
 
 /**
- * Represents a Stellar asset that TipTune supports.
+ * Represents a Stellar asset that VibePay supports.
  *
  * XLM is modelled as code="XLM", issuer=null.
  * Every other asset MUST have a non-null issuer (the issuing Stellar account).

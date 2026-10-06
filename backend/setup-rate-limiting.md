@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-Follow these steps to set up rate limiting for the TipTune backend:
+Follow these steps to set up rate limiting for the VibePay backend:
 
 ### 1. Install Dependencies
 

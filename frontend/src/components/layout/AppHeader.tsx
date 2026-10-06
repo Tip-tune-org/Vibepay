@@ -30,7 +30,7 @@ const AppHeader: React.FC = () => {
             to="/"
             className="flex items-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-blue focus-visible:ring-offset-2 rounded-md"
             onClick={closeMenu}
-            aria-label="TipTune home"
+            aria-label="VibePay home"
           >
             <img
               src="/assets/logo.svg"
@@ -39,7 +39,7 @@ const AppHeader: React.FC = () => {
               aria-hidden="true"
             />
             <span className="text-lg sm:text-xl text-deep-slate font-semibold tracking-tight">
-              TipTune
+              VibePay
             </span>
           </Link>
 

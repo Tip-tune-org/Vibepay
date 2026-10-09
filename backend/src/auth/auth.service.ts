@@ -27,7 +27,8 @@ interface Challenge {
 }
 
 interface RefreshTokenPayload {
-  userId: string;
+  /** JWT subject: the user ID placed in the token when it is issued. */
+  sub: string;
   tokenId: string;
 }
 
@@ -234,14 +235,19 @@ export class AuthService implements OnModuleInit, OnModuleDestroy {
     try {
       const payload = this.jwtService.verify<RefreshTokenPayload>(refreshToken);
 
-      if (!payload.tokenId || !payload.userId) {
+      // Refresh tokens are issued with the standard JWT "sub" claim. The
+      // previous implementation incorrectly required a "userId" claim that
+      // was never added to the token, causing every freshly issued refresh
+      // token to be rejected.
+      const userId = payload.sub;
+      if (!payload.tokenId || !userId) {
         throw new UnauthorizedException("Invalid refresh token");
       }
 
       // Verify token exists in our store
       const isValidToken = await this.authRedisService.validateRefreshToken(
         payload.tokenId,
-        payload.userId,
+        userId,
       );
       if (!isValidToken) {
         throw new UnauthorizedException("Refresh token not found or invalid");
@@ -249,7 +255,7 @@ export class AuthService implements OnModuleInit, OnModuleDestroy {
 
       // Get user
       const user = await this.userRepository.findOne({
-        where: { id: payload.userId },
+        where: { id: userId },
       });
 
       if (!user) {
